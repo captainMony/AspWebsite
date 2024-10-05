@@ -34,20 +34,20 @@ builder.Services.AddDbContext<ApplicationContext>(context => context.UseMySQL(co
 builder.Services.AddScoped<ICrewRepository, CrewRepository>();
 builder.Services.AddScoped<ICrewService, CrewService>();
 
-builder.Services.AddScoped<IShipRepository, ShipRepository>();
-builder.Services.AddScoped<IShipService, ShipService>();    
+//builder.Services.AddScoped<IShipRepository, ShipRepository>();
+//builder.Services.AddScoped<IShipService, ShipService>();    
 
-builder.Services.AddScoped<ISolarSystemRepository, SolarSystemRepository>();
-builder.Services.AddScoped<ISolarSystemService, SolarSystemService>(); //DONT FORGET 
+//builder.Services.AddScoped<ISolarSystemRepository, SolarSystemRepository>();
+//builder.Services.AddScoped<ISolarSystemService, SolarSystemService>(); //DONT FORGET 
 
-builder.Services.AddScoped<IPlanetRepo, PlanetRepo>();
-builder.Services.AddScoped<IPlanetService, PlanetServices>(); //why s?
+//builder.Services.AddScoped<IPlanetRepo, PlanetRepo>();
+//builder.Services.AddScoped<IPlanetService, PlanetServices>(); //why s?
 
-builder.Services.AddScoped<IGalaxyReposiotry, GalaxyRepository>();
-    builder.Services.AddScoped<IGalaxyService, GalaxyService>();
+//builder.Services.AddScoped<IGalaxyReposiotry, GalaxyRepository>();
+//    builder.Services.AddScoped<IGalaxyService, GalaxyService>();
 
-builder.Services.AddScoped<IMoonService, MoonService>();
-builder.Services.AddScoped<IMoonRepository, MoonRepository>();
+//builder.Services.AddScoped<IMoonService, MoonService>();
+//builder.Services.AddScoped<IMoonRepository, MoonRepository>();
 
 builder.Services.AddScoped<ICargoService, CargoService>();
 builder.Services.AddScoped<ICargoRepository, CargoRepository>();
@@ -57,8 +57,8 @@ builder.Services.AddScoped<ICargoRepository, CargoRepository>();
 
 
 
-builder.Services.AddScoped<ISpaceStationRepository, SpaceStationRepository>();
-builder.Services.AddScoped<ISpaceStationService, SpaceStationService>();
+//builder.Services.AddScoped<ISpaceStationRepository, SpaceStationRepository>();
+//builder.Services.AddScoped<ISpaceStationService, SpaceStationService>();
 
 
 
