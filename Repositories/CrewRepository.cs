@@ -17,7 +17,7 @@ namespace SoftUniSpaceConsoleWebApp.Repositories
         public void Add(Crew Crew)
         {
             context.Crewmen.Add(Crew);  
-            context.SaveChanges();  //if this doesnt wrok i messed up migrations 
+            context.SaveChanges();  //if this doesnt wrok i messed up migrations // and or no data
         }
        
         public IEnumerable<Crew> GetAll() //Context??? oh... 
